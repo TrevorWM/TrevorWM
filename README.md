@@ -4,4 +4,4 @@ Decided to start my Godot proejct over in Unity becauase I wanted to get some ex
 
 So far I've gotten a basic PlayerController set up, and animated an attack. Can you tell I'm not an animator?
 
-<img src="(https://github.com/TrevorWM/TrevorWM/blob/main/DudeShmoovin.gif)" width="400" height="314"/>
+![](https://github.com/TrevorWM/TrevorWM/blob/main/DudeShmoovin.gif)
