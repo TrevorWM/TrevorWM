@@ -12,3 +12,10 @@ the attack again yet, but I did add in a dodge. It's a little hard to see in the
 indicators other than the speed of the character changing.
 
 ![](https://github.com/TrevorWM/TrevorWM/blob/main/DudeDodging.gif)
+
+Spent a lot of time today going over the same code a bunch of times for the attack. Trying to figure out
+the best way to handle things. I feel like I could have got some more actual progress done if I was being
+more loose with my code architecture, but I haven't done many large projects before, and I want to make
+the inevitable refactoring as easy as possible in the future.
+
+![](https://github.com/TrevorWM/TrevorWM/blob/main/DudeSwingin.gif)
