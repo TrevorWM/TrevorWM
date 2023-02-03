@@ -20,7 +20,7 @@ the inevitable refactoring as easy as possible in the future.
 
 ![](https://github.com/TrevorWM/TrevorWM/blob/main/DudeSwingin.gif)
 
-##### Feb 2, 2023
+### Feb 2, 2023
 Started working through the CodeMonkey Beginner Unity tutorial to get a better idea of how to properly
 layout projects. It's been super helpful so far, and I was able to refactor things in a way where stuff
 is more loosely coupled and easier to manage. Nothing really for visible progress, but I'm feeling better
