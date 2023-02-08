@@ -50,3 +50,12 @@ about the project overall with the refactoring I've done.
 Mostly creating events and better splitting code
 between different scripts in order to keep things easier to read and maintain.
 </details>
+
+<details>
+<summary> <h3> Feb 7, 2023</h3> </summary>
+<br>
+Took a break for the weekend. Spent a fair bit of time today trying to do things the "best" way before
+moving to just getting things working and then worrying about that stuff later. It's a lesson that I'm glad
+I was able to learn relatively quickly because I was able to get some basic powerup items working and applying
+buffs. Not quite the system I have in my head yet, but I'm getting a lot closer to what I have in my head.
+</details>
