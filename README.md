@@ -59,3 +59,14 @@ moving to just getting things working and then worrying about that stuff later. 
 I was able to learn relatively quickly because I was able to get some basic powerup items working and applying
 buffs. Not quite the system I have in my head yet, but I'm getting a lot closer to what I have in my head.
 </details>
+
+<details>
+<summary> <h3> Feb 13, 2023</h3> </summary>
+<br>
+I was pretty busy lately and haven't had the chance to work on things much. Today I got a few visual things done. I made my own sprites for the powerup icons,
+  and I'm going to go back and make my own sprites for the character as well at some point. Currently I'm using the sprites from https://0x72.itch.io/dungeontileset-ii.
+  
+I also followed a tutorial on how to do outlines using shader graph cause I tried to do something on my own and that was super out of my current knowledge. Shaders seem pretty cool though, and I'm interested to learn more about them. Probably something to focus on at a later time though. I wanna focus on getting a gameplay prototype going. We're slowly but surely getting there.
+  
+![](https://github.com/TrevorWM/TrevorWM/blob/main/DudeUpgradin.gif)
+</details>
