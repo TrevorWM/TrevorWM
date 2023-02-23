@@ -70,3 +70,13 @@ I also followed a tutorial on how to do outlines using shader graph cause I trie
   
 ![](https://github.com/TrevorWM/TrevorWM/blob/main/DudeUpgradin.gif)
 </details>
+
+<details>
+<summary> <h3> Feb 22, 2023</h3> </summary>
+<br>
+Spent some time recently creating the item system. I had a few designs that I had come up with and implemented, but none of them were doing what I really wanted. I spent a bunch of time researching stuff looking at how other people solved the issue as well as learning about design patterns that I haven't used before. I tried a few of things out such as decorator functions for adding functionality to my attacks. This didn't work quite the way I wanted, and the way code ends up laid out is kind of awkward for what I had in mind as well. After a while I accepted that I was trying to overengineer the solution and went with a fairly simple but effective one instead. I also had the idea of creating a manager for my items. This will make it pretty easy for me to extend the functionality of my items to enemies or other objects in my game if I really want to later on. Do some cool stuff with barrels that chain lighting enemies if they break or something fun like that.
+
+After I got the items squared away I also went ahead and applied a similar system to the attack that was in the game currently. I changed it to an Ability, and then made a similar implementation to the items to make it more modular. I think I've also settled on giving characters set loadouts to use rather than having a bunch of equipable items they can grab. Tones down the scope a bit for myself to make things more achievable, and I can always add new abilities to the loadouts to give a similar feeling of character progression that I wanted from equips.
+
+I'm really happy with the system I have in place now. I hope that feeling sticks around for a long time, and future me doesn't end up wanting to kick past me in the butt.
+</details>
