@@ -80,3 +80,18 @@ After I got the items squared away I also went ahead and applied a similar syste
 
 I'm really happy with the system I have in place now. I hope that feeling sticks around for a long time, and future me doesn't end up wanting to kick past me in the butt.
 </details>
+
+<details>
+<summary> <h3> Feb 27, 2023</h3> </summary>
+<br>
+My goodness I spent so much time trying to get my custom relic inspector working properly. I was running into issues where data wasn't saving after Unity hit certain reset points. Creating a new build for example was causing all the data in my Relic Scriptable Object to be lost. Things were working in Editor, but then they weren't working in build, and I couldn't get shaders to load at runtime, so we swapped to just manually creating the reference. We finally got the other stuff working though, and I'm really happy with the way the custom inspector turned out. It's not super duper fancy, but now all that needs to be done to create new relics is to click a few buttons and put values into the SO. I even added the ability to attach abilities to the relics as well in order to try and keep them modular even when creating the more unique ones. It shouldn't be too difficult to turn that bit into a list of abilities if I want to extend it a bit further. Though with the current set up the relics are locked to a specific trigger for active effects. As I'm writing this I haven't implemented the active relics yet. Still deciding if I want to do that next, or if I want to make a proper enemy next so that once I start doing active abilities I'll be able to see if they're working properly when interacting with enemies.
+
+
+
+Here is the inspector for Passive Relics.
+
+![](https://github.com/TrevorWM/TrevorWM/blob/main/RelicSO%20Passive.png)
+
+And here is the Active Relic layout. I wanted it to change to fit the type of relic I was editing.
+![](https://github.com/TrevorWM/TrevorWM/blob/main/RelicSO%20Active.png)
+</details>
