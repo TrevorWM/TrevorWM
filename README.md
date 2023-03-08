@@ -32,8 +32,8 @@ indicators other than the speed of the character changing.
 <br>
 Spent a lot of time today going over the same code a bunch of times for the attack. Trying to figure out
 the best way to handle things. I feel like I could have got some more actual progress done if I was being
-more loose with my code architecture, but I haven't done many large projects before, and I want to make
-the inevitable refactoring as easy as possible in the future.
+more loose with my code architecture, but I haven't done many large projects before, and I want to use this project as a way to practice
+scalability and modularity. Sort of practicing for working in a team setting.
 
 ![](https://github.com/TrevorWM/TrevorWM/blob/main/DudeSwingin.gif)
 </details>
@@ -42,13 +42,12 @@ the inevitable refactoring as easy as possible in the future.
 <details>
 <summary> <h3> Feb 2, 2023 </h3> </summary>
 <br>
-Started working through the CodeMonkey Beginner Unity tutorial to get a better idea of how to properly
+Started working through the big CodeMonkey Unity tutorial he put out recently to get a better idea of how to properly
 layout projects. It's been super helpful so far, and I was able to refactor things in a way where stuff
 is more loosely coupled and easier to manage. Nothing really for visible progress, but I'm feeling better
 about the project overall with the refactoring I've done.
 
-Mostly creating events and better splitting code
-between different scripts in order to keep things easier to read and maintain.
+Mostly creating events and better splitting code between different scripts in order to keep things easier to read and maintain.
 </details>
 
 <details>
@@ -91,7 +90,16 @@ My goodness I spent so much time trying to get my custom relic inspector working
 Here is the inspector for Passive Relics.
 
 ![](https://github.com/TrevorWM/TrevorWM/blob/main/RelicSO%20Passive.png)
+It allows you to select which stat it will modify, which kind of scaling you would like to use (Additive, Multiplicative, Logarithmic, or Exponential), and then you can put a scale value in.
 
 And here is the Active Relic layout. I wanted it to change to fit the type of relic I was editing.
 ![](https://github.com/TrevorWM/TrevorWM/blob/main/RelicSO%20Active.png)
+For the Active Relics I have a few different triggers laid out: On Attack, On Enemy Hit, On Enemy Killed, and On Self Hit (so if the player takes damage).
+
+Currently all of this code is tied to the SO which is super nice right now because it means I can iterate and create new relics in the inspector and then just throw them on a container Monobehaviour script where they will just work without any additional coding. I should probably move this logic over to the Monobehaviour itself, but I thought of that after I started on working with abilities, so for now it stays, but it's on my to do list.
+</details>
+
+<details>
+<summary> <h3> Mar 6, 2023</h3> </summary>
+Worked on the abilities today to try and make them a bit more modular. I created a new class that handles abilities with projectiles. I think it's a little rigid right now as it specifically handles shooting out from a position. I want to move the actual shoot behaviour out of this script into either the projectile itself or the specific ability script. I also added in object pooling using the built in Unity classes. That part I think is definitely best to keep in this the ProjectileAbility base script. This way I can have different pools for each ProjectileAbility to handle different projectile prefabs, and pool size needs.
 </details>
